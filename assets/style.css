@@ -1,0 +1,16 @@
+
+body{background: color 333;}
+
+.navstyle {
+    font: 20x;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.headerstyle { 
+ float: right;
+ color: whitesmoke;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
