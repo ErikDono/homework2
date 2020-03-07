@@ -15,28 +15,25 @@
 </head>
 
 <!-- /I added navbar-fixed-top, but it did not fix the bav bar to the top of the page... -->
-<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-secondary">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary rounded">
 
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navstyle">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Contact Me <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="index.html">About Me</a>
-            </div>
+    <div class="headNavStyle">
+        <h1>Erik Donovan</h1>
+    </div>
+
+    <ul class="navbar-nav ml-auto" id="links">
+        <li><a class="nav-item nav-link active" href="contact.html">Contact Me <span
+                    class="sr-only">(current)</span></a></li>
+        <div class="navDivider"></div>
+        <li><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></li>
+        <div class="ivider"></div>
+        <li><a class="nav-item nav-link" href="index.html">About Me</a></li>
         </div>
 
-    </div>
-    <!-- i really liked the way the header floated to the right looked! it was a mistake at first, but i kept it in for style reasons. -->
-    <div class="headernavstyle">
+    </ul>
+</nav>
 
-        <h1>Contact Me</h1>
 
-    </div>
 </nav>
 
 <body>
@@ -68,6 +65,7 @@
                 <label for="exampleFormControlTextarea1">Please leave me a breif message bout your inquiry:</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 
 

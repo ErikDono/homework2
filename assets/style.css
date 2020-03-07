@@ -1,19 +1,36 @@
 
-body{background: color 333;}
+body{background-color: #B0B0B0;}
 
-.navstyle {
+
+.navbar-brand{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-primary {
+	background-color: #B0B0B0;
+	border-color: #B0B0B0;}
+
+#links {
+    color: honeydew;
+}
+
+.nav-link li a {
     font: 20x;
-    color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
-.headernavstyle { 
- float: right;
- color: whitesmoke;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.headNavStye { 
+ color: honeydew;
+ font-family: fantasy
 
 }
+.navDivider {
+
+
+}
+
 
 .contactstyle{
 font-size: 25px;
@@ -22,7 +39,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 .contactMeWrapper {
+    background-color: honeydew;
     margin: auto;
+    margin-top: 8%;
   width: 60%;
   border: 5px  #484848;
   padding: 10px; 
