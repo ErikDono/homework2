@@ -5,12 +5,34 @@ body{background: color 333;}
     font: 20x;
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
 }
-.headerstyle { 
+
+
+.headernavstyle { 
  float: right;
  color: whitesmoke;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
+}
+
+.contactstyle{
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.contactMeWrapper {
+    margin: auto;
+  width: 60%;
+  border: 5px  #484848;
+  padding: 10px; 
+  border-radius: .1px;
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+}
+.divider {
+    margin-top:5px;
+ margin-bottom:5px;
+ height:1px;
+ width:auto;
+ border-top:1px solid gray;
 }
