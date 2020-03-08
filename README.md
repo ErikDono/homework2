@@ -15,3 +15,5 @@ commit->6 adding rps.html and other games to asset file. got all files to get on
 commit-7 Fixed the border around my portfolio!!! 
 
 commit-8 fized resizing issues, but not all there yet. 
+
+FINAL NOTES: I tried to fix the resizing issue with the caption, as whenever id pull it large it would go passed haflway. i tried restricting both sides with margins, but i think i need some help. Also, I think the nav bar is actually two nav bars, but i struggled to figure out how to do that. 

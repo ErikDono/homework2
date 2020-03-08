@@ -90,7 +90,9 @@ position: fixed;
 
 .thumbnail {
     position: relative;
-    /* margin-right: 5%; *im trying to move the photo over a bit, as when its resized it stretches over/
+    /* top: auto;
+    right: auto; */
+    /* margin-right: 5%;<<< *im trying to move the photo over a bit, as when its resized the caption stretches over/
     /* margin-left: 10%; * i am trying to move the .caption absolute position over a bit*/
 }
 
@@ -98,9 +100,11 @@ position: fixed;
     position: absolute;
     text-align: center;
     top: 50%;
-    left: 10%;
-    right: 15%;
-    width: 60%;
+    left: 50%;
+    margin-left: -25%;
+    margin-right: -25%;
+    right:50%;
+    width: 40%;
     border: solid;
     border-color: #B0B0B0;
     background-color: #B0B0B0;
