@@ -3,7 +3,7 @@ body{background-color: #B0B0B0;
 margin-top:100px ;}
 
 img {
-    width: 250px;
+    
     height: 250px;
     margin: 4px;
     /* padding: 50px;* tried to stop text from overlaping during resize */
@@ -71,9 +71,10 @@ position: fixed;
     see above, i ended up just rezising all images on the page */
 }
 
-.textBuffer{
+/* .textBuffer{
     margin-top: 25px;
-    
+    padding-top: 125px;
+     *^trying to add padding/buffer between rows*/
 }
 
 .buffer{
